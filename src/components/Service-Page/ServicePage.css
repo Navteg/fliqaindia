@@ -1,0 +1,39 @@
+.card {
+      border: #fff;
+    }
+
+    .photography-services-card-content {
+      text-align: center;
+      padding: 5% 8%;
+      background-color: #F7FAFE;
+      margin: 0 5%;
+    }
+
+    .photography-services-content-heading {
+      font-size: 2.2rem;
+      padding: 2% 0% 4% ;
+    }
+
+    /* @media only screen and (max-width: 600px) {
+      .photography-services-card-content {
+        text-align: center;
+        padding: 8% 4%;
+        background-color: #F7FAFE;
+        margin: 0 5%;
+      } */
+
+      .photography-services-content-heading {
+        font-size: 1.5rem;
+        padding: 2%;
+      }
+
+      .booknow {
+        margin: 2% 0 0 0;
+      }
+
+      .btn-res {
+        font-size: 14px;
+
+        color: #fff;
+        padding: 10px 40px;
+      }

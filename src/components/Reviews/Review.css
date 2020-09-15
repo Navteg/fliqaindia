@@ -1,0 +1,263 @@
+.container-review{
+  position: absolute;
+  width: 1350px;
+  height: 600px;
+  left: 0px;
+  top: 4230px;
+
+  background: rgba(234, 246, 255, 0.83);
+}
+.heading-review{
+  position: absolute;
+  width: 227px;
+  height: 40px;
+  left:560px;
+  top:35px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 42px;
+  line-height: 40px;
+  /* identical to box height, or 111% */
+
+  justify-content: center;
+
+  color: #000000;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.subheading-review{
+  position: absolute;
+  width: 403px;
+  height: 27px;
+  top:100px;
+  left:490px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  /* identical to box height, or 193% */
+
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+@media only screen and (max-width:600px){
+  .container-review{
+    top:3130px;
+    height:550px;
+    width:100%;
+  }
+  .heading-review{
+    left:100px !important;
+    font-size:36px;
+  }
+  .subheading-review{
+    left:8px !important;
+    font-size:16px;
+  }
+  .person-1{
+    display:none;
+  }
+  .person-2{
+    position: absolute;
+    width: 146px;
+    height: 150px;
+    top:190px !important;
+    left:100px !important;
+    /* background: url("https://www.europeanleadershipnetwork.org/wp-content/uploads/2019/03/Alcaro-Mr-Riccardo-Alcaro_gallerylarge-e1552649214106-146x150.jpg"); */
+    border-radius: 71.5px;
+  }
+  .person-3{
+    display: none;
+  }
+}
+
+.person-1{
+  position: absolute;
+  width: 246px;
+  height: 150px;
+  top:234px;
+  left:100px;
+  /* background: url("https://www.europeanleadershipnetwork.org/wp-content/uploads/2019/03/Alcaro-Mr-Riccardo-Alcaro_gallerylarge-e1552649214106-146x150.jpg"); */
+  border-radius: 71.5px;
+}
+.person-review-1{
+  position: absolute;
+  width: 345.09px;
+  height: 50px;
+  left:56px;
+  top:540px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 25px;
+
+  text-align: center;
+
+  color: #333333;
+}
+
+.person-name-1{
+  position: absolute;
+  width: 243.11px;
+  height: 20px;
+  top:605px;
+  left:100px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
+  /* identical to box height, or 110% */
+
+  text-align: center;
+
+  color: #333333;
+}
+.person-designation-1{
+  position: absolute;
+  width: 342px;
+  height: 45px;
+  top:640px;
+  left:50px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 26px;
+  /* or 93% */
+
+  text-align: center;
+
+  color: #000000;
+
+}
+.person-2{
+  position: absolute;
+  width: 246px;
+  height: 150px;
+  top:134px;
+  left:590px;
+  /* background: url("https://www.europeanleadershipnetwork.org/wp-content/uploads/2019/03/Alcaro-Mr-Riccardo-Alcaro_gallerylarge-e1552649214106-146x150.jpg"); */
+  border-radius: 71.5px;
+}
+.person-review-2{
+  position: absolute;
+  width: 400px;
+  height: 50px;
+  left:490px;
+  top:420px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 25px;
+
+  text-align: center;
+
+  color: #333333;
+}
+
+.person-name-2{
+  position: absolute;
+  width: 243.11px;
+  height: 20px;
+  top:510px;
+  left:570px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
+  /* identical to box height, or 110% */
+
+  text-align: center;
+
+  color: #333333;
+}
+.person-designation-2{
+  position: absolute;
+  width: 342px;
+  height: 45px;
+  top:550px;
+  left:520px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 26px;
+  /* or 93% */
+
+  text-align: center;
+
+  color: #000000;
+
+}
+.person-3{
+  position: absolute;
+  width: 246px;
+  height: 150px;
+  top:234px;
+  left:1050px;
+  /* background: url("https://www.europeanleadershipnetwork.org/wp-content/uploads/2019/03/Alcaro-Mr-Riccardo-Alcaro_gallerylarge-e1552649214106-146x150.jpg"); */
+  border-radius: 71.5px;
+}
+.person-review-3{
+  position: absolute;
+  width: 345.09px;
+  height: 50px;
+  left:1000px;
+  top:520px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 25px;
+
+  text-align: center;
+
+  color: #333333;
+}
+
+.person-name-3{
+  position: absolute;
+  width: 243.11px;
+  height: 20px;
+  top:610px;
+  left:1070px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
+  /* identical to box height, or 110% */
+
+  text-align: center;
+
+  color: #333333;
+}
+.person-designation-3{
+  position: absolute;
+  width: 342px;
+  height: 45px;
+  top:650px;
+  left:1020px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 26px;
+  /* or 93% */
+
+  text-align: center;
+
+  color: #000000;
+
+}

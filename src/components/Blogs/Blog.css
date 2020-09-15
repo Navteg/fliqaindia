@@ -1,0 +1,131 @@
+.blog-container{
+  position: absolute;
+  width: 1350px;
+  height: 600px;
+  left: 0px;
+  top: 4180px;
+  background: rgba(169, 194, 217, 0.83);
+}
+.blog-heading{
+  position: absolute;
+  width: 271px;
+  height: 73px;
+  left: 560px;
+  top: 70px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 53px;
+  /* or 148% */
+
+  text-align: center;
+  letter-spacing: 0.42px;
+
+  color: #000000;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.blog-img-1{
+  position: absolute;
+  width: 260px;
+  height: 265px;
+  left: 80px;
+  top: 150px;
+  transition: transform 2s infinite;
+  background: url("https://manpaul.weebly.com/uploads/1/7/5/7/1757171/2588162_orig.jpg") no-repeat;
+  border-radius: 5px;
+}
+
+.blog-img-text-1{
+  position: absolute;
+  width: 349px;
+  height: 98px;
+  left: 50px;
+  top: 450px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 53px;
+  /* or 222% */
+
+  text-align: center;
+  letter-spacing: 0.42px;
+
+  color: #000000;
+}
+.blog-img-1:hover{
+  transform: scale(1.2);
+}
+
+.blog-img-2{
+  position: absolute;
+  width: 260px;
+  height: 265px;
+  left: 570px;
+  top: 150px;
+  transition: transform 2s infinite;
+  background: url("https://image.shutterstock.com/image-vector/coronavirus-sarscov2-epidemic-virus-outbreak-260nw-1674198181.jpg") no-repeat;
+  border-radius: 5px;
+}
+
+.blog-img-text-2{
+  position: absolute;
+  width: 380px;
+  height: 98px;
+  left: 510px;
+  top: 450px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 53px;
+  /* or 222% */
+
+  text-align: center;
+  letter-spacing: 0.42px;
+
+  color: #000000;
+}
+.blog-img-2:hover{
+  transform: scale(1.2);
+}
+.blog-img-3{
+  position: absolute;
+  width: 260px;
+  height: 265px;
+  left: 1030px;
+  top: 150px;
+  transition: transform 2s infinite;
+  background: url("https://i.pinimg.com/474x/50/66/9a/50669a378adc1e20cd9ac6ad3b42b9c9.jpg") no-repeat;
+  border-radius: 5px;
+}
+
+.blog-img-text-3{
+  position: absolute;
+  width: 380px;
+  height: 98px;
+  left: 959px;
+  top: 450px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 53px;
+  /* or 222% */
+
+  text-align: center;
+  letter-spacing: 0.42px;
+
+  color: #000000;
+}
+.blog-img-3:hover{
+  transform: scale(1.2);
+}

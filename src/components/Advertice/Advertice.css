@@ -1,0 +1,68 @@
+.container-4{
+  position: absolute;
+width: 1350px;
+height: 161px;
+left: 0px;
+top: 1178px;
+
+background: linear-gradient(270deg, #D5F0FF 28.34%, rgba(238, 249, 255, 0) 88.72%);
+border: 1px solid #000000;
+/* box-sizing: border-box; */
+}
+.left-img{
+  position: absolute;
+  width: 175px;
+  height: 161px;
+  left: 0px;
+  top: 0px;
+  /* background: url("https://images.vexels.com/media/users/3/193093/isolated/preview/83f23fec75cc6474e19d33a4bec06d7d-covid-19-virus-icons-by-vexels.png"); */
+  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.25));
+}
+
+.box-content-1{
+  position: absolute;
+  width: 546px;
+  height: 35px;
+  left: 202px;
+  top: 50%;
+  text-transform: uppercase;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  /* or 104% */
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.center-border{
+  position: absolute;
+  width: 0px;
+  height: 64px;
+  left: 815px;
+  top: 35%;
+  border: 1px solid #000000;
+}
+
+.box-content-2{
+  position: absolute;
+  width: 546px;
+  height: 35px;
+  left: 792px;
+  top: 50%;
+  text-transform: uppercase;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  /* or 104% */
+
+  text-align: center;
+
+  color: #000000;
+
+}

@@ -1,0 +1,61 @@
+.navbar{
+  padding-bottom: 0px;
+  background: #D0E1FA;
+  height: 105px;
+}
+.hero-heading{
+  position: absolute;
+  width: 234.43px;
+  height: 89px;
+  left: 34px;
+  top: 9px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 71px;
+  /* or 197% */
+
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+
+  color: #333333;
+      /* font-size: 35px;
+    text-transform: uppercase; */
+}
+.nav-item a{
+  position:relative;
+  width:85px;
+  height: 75px;
+  left: 100px;
+  top: 15px;
+
+
+  font-family: open-sarif;
+  font-size: 13px;
+  line-height: 20px;
+  /* or 592% */
+
+  letter-spacing:0.6px;
+  text-transform: uppercase;
+
+  color: #333333;
+
+}
+
+.nav-icon li{
+  margin: 15px;
+  text-decoration: none;
+  left: 900px;
+  line-height: 20px;
+  display:inline-block;
+}
+.nav-icon i{
+  color: black;
+  font-size: 20px;
+}
+.nav-icon i:hover{
+  color: blue;
+  font-size: 30px;
+}
