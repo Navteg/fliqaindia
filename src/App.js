@@ -4,7 +4,7 @@ import './App.css';
 
 import {Route,Switch} from 'react-router-dom'
 
-import Navbar from './components/Navbar/Navbar.js';
+import Navbar from './components/Navbar/NavBar.js';
 import HeroImg from './components/img/HeroImg'
 import Button from './components/HeaderBottom/Button'
 import Shoot from './components/Shoot/WeddingShoot'
@@ -51,7 +51,7 @@ const App = () => {
           <Route exact strict path='/' component={Service} />
           <Route exact strict path='/' component={Offer} />
           <Route exact strict path='/' component={Feature} />
-          {/*<Route exact strict path='/' component={Blog} />*/}
+          <Route exact strict path='/' component={Blog} />
           <Route exact strict path='/' component={Review} />
           <Route exact strict path='/' component={Footer} />
           <Route exact strict path='/service' component={ServicePage} />

@@ -47,6 +47,14 @@
   color: #000000;
 }
 
+#img{
+  left:40px !important;
+  position: relative;
+}
+#company{
+  /* left:5px !important; */
+}
+
 @media only screen and (max-width:600px){
   .container-review{
     top:3130px;

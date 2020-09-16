@@ -34,7 +34,7 @@ const Offer = () => {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 1.5,
+          slidesToShow: 1.3,
           slidesToScroll: 1,
           initialSlide: 1,
           speed:2500
@@ -48,7 +48,7 @@ const Offer = () => {
           <p>Offer For You</p>
         </div>
         <div className="offer-container">
-      <Slider {...settings} >
+      <Slider id="slider" {...settings} >
         <div>
           <img src='https://focused-yonath-473677.netlify.app/images/ofy/offer4.png' />
         </div>

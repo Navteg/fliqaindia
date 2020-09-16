@@ -21,13 +21,21 @@
 
   color: #FFFF;
 }
+.btn-bottom:focus{
+  outline: none;
+  opacity: 0.5;
+}
 
 @media only screen and (max-width: 600px) {
 
   .btn-bottom{
     top:359px;
-    /* width:150; */
-    left:100px;
+    width:150px !important;
+    left:130px;
+  }
+  .btn-bottom:focus{
+    outline: none;
+    opacity: 0.5;
   }
 
 }

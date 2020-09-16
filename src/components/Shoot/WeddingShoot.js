@@ -39,34 +39,34 @@ const WeddingShoot = () => {
         <div className="container-3">
             <Slider {...settings}>
               <div id='shop'>
-                <img id="img-drone" style = {{width:'170px',height:'135px'}}
+                <img id="img-drone" style = {{width:'170px',height:'135px',position:'absolute',top:'25px'}}
                 src='https://focused-yonath-473677.netlify.app/svg/drone.svg' />
-                <p style={{}}>DRONE SERVICE</p>
+                <p style={{top:'140px',position:'absolute'}}>DRONE SERVICE</p>
               </div>
               <div id='shop'>
-                <img id="img-pre" style = {{width:'170px',height:'135px'}}
+                <img id="img-pre" style = {{width:'170px',height:'135px',position:'absolute',top:'23px'}}
                 src='https://focused-yonath-473677.netlify.app/svg/love.svg' />
-                <p>PRE WEDDING SHOOT</p>
+                <p style={{top:'140px',position:'absolute'}}>PRE WEDDING SHOOT</p>
               </div>
               <div id='shop'>
-                <img  id="img-beach"style = {{width:'170px',height:'138.8px'}}
+                <img  id="img-beach"style = {{width:'170px',height:'138.8px',position:'absolute',top:'25px'}}
                 src='https://focused-yonath-473677.netlify.app/svg/beach.svg' />
-                <p>BEACH PHOTOGRAPHY</p>
+                <p style={{top:'140px',position:'absolute'}}>BEACH PHOTOGRAPHY</p>
               </div>
               <div id='shop'>
-                <img id="img-port" style = {{width:'150px',height:'137px'}}
+                <img id="img-port" style = {{width:'150px',height:'140px',position:'absolute',top:'5px'}}
                   src="https://focused-yonath-473677.netlify.app/svg/influencer.svg" />
-                  <p>PORTFOLIO SHOOT</p>
+                  <p style={{top:'140px',position:'absolute'}} id='p-port'>PORTFOLIO SHOOT</p>
               </div>
               <div id='shop'>
-                <img id="img-graph" style={{width:'150px',height:'137px'}}
+                <img id="img-graph" style={{width:'150px',height:'137px',position:'absolute',top:'5px'}}
                 src="https://focused-yonath-473677.netlify.app/svg/graphics.svg" />
-                <p>GRAPHICS</p>
+                <p style={{top:'140px',position:'absolute'}}>GRAPHICS</p>
               </div>
               <div id='shop' >
                 <img id="img-wed" style={{width:'170px',height:'135px'}}
                 src="https://focused-yonath-473677.netlify.app/svg/wedding.svg" />
-                <p>WEDDING PHOTOGRAPHY</p>
+                <p id='p-wed'>WEDDING PHOTOGRAPHY</p>
                 </div>
             </Slider>
             </div>

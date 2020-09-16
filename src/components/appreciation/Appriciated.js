@@ -18,7 +18,7 @@ var settings = {
       {
         breakpoint: 1024, // width to change options
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1,
           infinite: true,
           dots: false
@@ -49,8 +49,8 @@ var settings = {
           src='https://globemoving.net/blog/wp-content/uploads/2016/04/start-up.png' />
         </div>
         <div>
-          <img style = {{width:'180px',height:'80px'}}
-          src='https://upload.wikimedia.org/wikipedia/commons/a/ad/Images_Bazaar_Logo.png' />
+          <img style = {{width:'180px',height:'60px'}}
+          src='https://focused-yonath-473677.netlify.app/images/logo/ib.svg' />
         </div>
       </Slider>
       </div>

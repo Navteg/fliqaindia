@@ -3,7 +3,7 @@
   width: 1350px;
   height: 417px;
   left: 0px;
-  top: 4830px;
+  top: 5430px;
 
   background: #6082A7;
 
@@ -11,7 +11,7 @@
 @media only screen and (max-width:600px){
   .footer{
     width:100%;
-    top:3680px;
+    top:4715px;
     height:80vh;
   }
   .subscribe-heading{
@@ -149,6 +149,13 @@
   border-radius: 18px 18px 18px 18px;
 }
 .subscribe-input:focus{
+  outline: none;
+  padding-left: 25px;
+}
+.subscribe-input:focus::placeholder{
+  color:transparent;
+}
+.subscribe-input:focus{
   border:none;
   decoration:none;
 }
@@ -165,6 +172,10 @@
   border:none;
   background: #5DC6E8;
   border-radius: 18px;
+}
+.subscribe-button:focus{
+  outline: none;
+  /* opacity: 0.5; */
 }
 .para-1{
   position: absolute;

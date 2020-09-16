@@ -4,11 +4,16 @@ import {Button,Carousel} from 'react-bootstrap'
 import carousel1 from './Carousel photos/Carousel 1.jpg'
 import carousel2 from './Carousel photos/Carousel 2.png'
 import carousel3 from './Carousel photos/Carousel 3.jpg'
+import Slider from 'react-slick'
 
 const HeroImg = () => {
+  var settings={
+    fade:!0,
+    delay:0.5,
+  }
     return (
       <div className="hero-container">
-              <Carousel className=".hero-container">
+              <Carousel>
           <Carousel.Item>
             <img
               className="d-block w-100"
@@ -40,8 +45,10 @@ const HeroImg = () => {
             />
 
             <div>
+
               <p className="content-1">FliqaIndia For</p>
               <p className="content-2">Graphics</p>
+
             </div>
           </Carousel.Item>
         </Carousel>

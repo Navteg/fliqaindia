@@ -56,21 +56,15 @@ const Company = () => {
             src='https://focused-yonath-473677.netlify.app/images/logo/can.svg' />
         </div>
         <div>
-          <img style = {{width:'180px',height:'100px'}} src={sulekha} />
-        </div>
-        <div>
           <img style = {{width:'180px',height:'100px'}}
-          src='https://globemoving.net/blog/wp-content/uploads/2016/04/start-up.png' />
+          src='https://focused-yonath-473677.netlify.app/images/logo/untitled%20(2).svg' />
         </div>
 
         <div>
           <img style = {{width:'180px',height:'100px'}}
             src="https://focused-yonath-473677.netlify.app/images/logo/untitled%20(5).svg" />
         </div>
-        <div>
-          <img style={{width:'180px',height:'100px'}}
-          src="https://upload.wikimedia.org/wikipedia/commons/a/ad/Images_Bazaar_Logo.png" />
-        </div>
+    
       </Slider>
       </div>
       </>
